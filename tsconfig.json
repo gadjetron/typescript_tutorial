@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es2015",
+        "experimentalDecorators": true,
+
+        "outDir": "./dist",
+        "noImplicitAny": true,
+        "diagnostics": true,
+
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+
+        "sourceMap": true,
+        "strictNullChecks": true
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}
